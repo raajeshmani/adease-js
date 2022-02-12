@@ -11,21 +11,21 @@ export function MediaComponent(props) {
     const { item, index } = props;
 
     return (
-        <Box key={index} sx={{ width: 330, marginRight: 2.5, my: 5 }}>
+        <Box key={index} sx={{ width: 350, marginRight: 2.5, my: 5 }}>
             {item ? (
                 <a href={item.destination_url} target="_blank">
                     <img
-                        style={{ width: 330, height: 190 }}
+                        style={{ width: 350, height: 220 }}
                         alt={item.title}
                         src={item.content_url}
                     />
                 </a>
             ) : (
-                <Skeleton variant="rectangular" width={330} height={190} />
+                <Skeleton variant="rectangular" width={350} height={220} />
             )}
 
             {item ? (
-                <Box className={styles.subtext} sx={{ pr: 2, width: 330 }} >
+                <Box className={styles.subtext} sx={{ pr: 2, width: 350 }} >
                     <Typography gutterBottom variant="body2">
                         {item.headline}
                     </Typography>
