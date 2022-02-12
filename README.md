@@ -19,11 +19,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <br />
 - Setup Flask API from [raajeshmani/adease-api](https://github.com/raajeshmani/adease-api)
 
-<hr>
 ### Screenshots
 
 ***Home Page***
 <img src="./screenshots/homePage.png" height="340em">
+
 <br>
 
 ***Advertisements Page***
