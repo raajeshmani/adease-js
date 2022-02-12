@@ -1,0 +1,42 @@
+.subtext {
+    word-break: break-all
+}
+
+.outer_advertisement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.actions {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid_options {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.button_custom {
+    margin-left: 1em;
+}
+
+.spacer {
+    width: 20%;
+}
+
+.button_group {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.sorter {
+    width: 20%;
+}

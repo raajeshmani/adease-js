@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    width: 50%;
+  }
+
+.col {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
