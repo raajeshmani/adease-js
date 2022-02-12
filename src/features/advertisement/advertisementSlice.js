@@ -32,8 +32,8 @@ export const deleteAdsAsync = createAsyncThunk(
 
 export const generateRandomAsync = createAsyncThunk(
     'ads/random',
-    async () => {
-        const response = await generateRandomAds();
+    async (randomSize) => {
+        const response = await generateRandomAds(randomSize);
         return response.data;
     }
 );

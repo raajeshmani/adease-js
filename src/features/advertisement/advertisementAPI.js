@@ -27,11 +27,11 @@ export async function deleteAds() {
     })
 }
 
-export async function generateRandomAds() {
+export async function generateRandomAds(randomSize) {
     return await ajax({
         method: 'POST',
         url: 'ad/random',
-        data: { size: 10 }
+        data: { size: randomSize }
     })
     .then((response) => {
         console.log("Successful response", response.data)
